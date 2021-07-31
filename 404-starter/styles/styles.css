@@ -1,0 +1,50 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto 0;
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  margin: 110px auto 10px;
+}
+
+.image {
+  margin: 0 auto 0;
+  display: block;
+}
+
+.main {
+  margin: 0 430px 0;
+  text-align: center;
+}
+
+.error-code {
+  margin: 0;
+  font-weight: 500;
+  font-size: 121px;
+}
+
+.error-text {
+  visibility: hidden;
+  font-size: 16.5px;
+  margin: 22px 0 0;
+}
+
+.error-code:hover + .error-text {
+  visibility: visible;
+}
+
+.footer {
+  font-size: 16.5px;
+  margin: 144px 430px 30px;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.footer-link {
+  color: #2f80ed;
+}
